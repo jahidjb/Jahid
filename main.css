@@ -1,25 +1,35 @@
-
 html {
-    font-size: 20px;
-    font-family:sans-serif, 'Tourney';
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
 }
 body {
-    object-fit: cover;
-    background-color: #333;
+  object-fit: cover;
+  background-color: #333;
   color: whitesmoke;
 }
 
-a{
+a {
   color: aliceblue;
 }
 a:visited {
   color: lightgray;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   color: #eee;
 }
-.nav {
-  width: 300px;
-  height: 100px;
-  border: 1px solid blue;
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: normal;
+  padding: 2px;
+  text-align: justify;
+}
+
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
 }
