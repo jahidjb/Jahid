@@ -1,0 +1,25 @@
+
+html {
+    font-size: 20px;
+    font-family:sans-serif, 'Tourney';
+}
+body {
+    object-fit: cover;
+    background-color: #333;
+  color: whitesmoke;
+}
+
+a{
+  color: aliceblue;
+}
+a:visited {
+  color: lightgray;
+}
+a:hover, a:active {
+  color: #eee;
+}
+.nav {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
