@@ -35,7 +35,7 @@
             <a href="about.html">Learning HTML</a>
           </li>
           <li>
-            <a href="#Contact">Contact</a>
+            <a href="#Contact">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -79,6 +79,9 @@
         </aside>
       </section>
 
+      <h3>
+        <a href="about.html">Daily Routine of a Programmer.</a>
+      </h3>
       <section>
         <h2>Learn more about Web Development</h2>
         <article>
@@ -97,7 +100,7 @@
       <article>
         <h3>About Me</h3>
 
-        <p>
+        <p class="myself">
           Hello! I'm Jahid Hasan, a passionate and dedicated web developer with
           a keen interest in creating innovative and user-friendly websites. I
           specialize in <abbr title="Hyper Text Markup Language">HTML</abbr>,
@@ -123,6 +126,81 @@
     </main>
 
     <hr />
+    <article id="Contact">
+      <h2>Contact Me</h2>
+      <p>I'd really like to hear from you!</p>
+      <form action="https://httpbin.org/get" method="get">
+        <p>
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Jone"
+            autocomplete="on"
+            required
+            autofocus />
+        </p>
+        <p>
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            name="LastName"
+            id="LastName"
+            placeholder="Bell"
+            autocomplete="on"
+            required />
+        </p>
+        <p>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="give your password"
+            autocomplete="on"
+            required />
+        </p>
+        <p>
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="5555555555"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+            autocomplete="on"
+            required />
+        </p>
+        <p>
+          <label for="decade">Favourite Decade:</label>
+          <input
+            type="number"
+            name="decade"
+            id="decade"
+            min="1950"
+            max="2020"
+            step="10"
+            value="1980" />
+        </p>
+        <!--  <p>
+          <label for="coffee">Favourite Coffee: </label>
+          <select name="coffee" id="coffee" multiple size="5">
+            <optgroup label="Coffees">
+              <option value="regular">Regular Coffee</option>
+              <option value="iced coffee" selected>Iced Coffee</option>
+            </optgroup>
+            <optgroup label="Espresso Drinks">
+              <option value="latte">Latte</option>
+              <option value="cappuccino">Cappuccino</option>
+              <option value="cortado">Cortado</option>
+              <option value="americano">Americano</option>
+              <option value="other">Other</option>
+            </optgroup>
+          </select>
+        </p> -->
+      </form>
+    </article>
     <footer>
       <section id="Contact">
         <h3>Contact Info</h3>
