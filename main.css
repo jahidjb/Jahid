@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Titillium Web", sans-serif;
 }
@@ -51,4 +57,32 @@ caption {
   font-family: "Courier New", Courier, monospace;
   border-collapse: collapse;
   padding: 0.5rem;
+}
+
+.container {
+  border: 3px dashed #1d3557;
+  font-size: 2rem;
+  margin: 0.56rem;
+  padding: 5%;
+  font-family: fantasy;
+  width: 400;
+}
+
+.article {
+  padding-left: 3rem;
+  text-align: left;
+  text-decoration-style: double;
+}
+
+br {
+  padding-top: 3rem;
+}
+
+.myself {
+  padding-top: 3%;
+  text-align: center;
+}
+.image {
+  image-orientation: flip;
+  image-rendering: unset;
 }
