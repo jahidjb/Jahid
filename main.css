@@ -65,7 +65,6 @@ caption {
   margin: 0.56rem;
   padding: 5%;
   font-family: fantasy;
-  width: 400;
 }
 
 .article {
@@ -82,7 +81,11 @@ br {
   padding-top: 3%;
   text-align: center;
 }
-.image {
-  image-orientation: flip;
-  image-rendering: unset;
+
+.contact {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding-left: 3%;
+  margin-left: 3rem;
 }
