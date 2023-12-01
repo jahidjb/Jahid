@@ -64,12 +64,12 @@ caption {
   margin: 100px;
   padding: 5%;
   font-family: fantasy, sans-serif;
+  list-style-position: inside;
 }
 
 .article {
   padding-left: 3rem;
   text-align: left;
-  text-decoration-style: double;
 }
 
 br {
@@ -87,4 +87,8 @@ br {
   text-align: center;
   padding-left: 3%;
   margin-left: 3rem;
+}
+
+#cat {
+  text-align: center;
 }
